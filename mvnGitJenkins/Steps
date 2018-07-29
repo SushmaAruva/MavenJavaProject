@@ -1,0 +1,13 @@
+Steps:
+
+1. Create java project in Eclipse.
+2. Create java class with sys out.
+3. Convert java project to maven java project.
+   Right click on the project - configure - Convert to Maven Project - It will ask for pom entires - provided groupId as com.CtsIbm, name and description if required - Click Finish
+
+4. Run as Maven Clean - deletes the target folder.
+5. Run as Maven install - compiles java classes, generates .class files and creates project jar.
+6. Run as Maven Build - package - runs main class provided as a confuguration in plugin tag in pom.xml.
+7. Create a git respository.
+8. Right click on Project - Team - Share - Add to git repo
+9. Commit and push the project to repo.
